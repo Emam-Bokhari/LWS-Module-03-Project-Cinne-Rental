@@ -7,7 +7,7 @@ export default function App() {
   return (
     <Fragment>
 
-      <body className="dark:bg-body bg-white font-[Sora] dark:text-white text-dark">
+      <div className="dark:bg-body bg-white font-[Sora] dark:text-white text-dark">
 
         <Header />
 
@@ -18,7 +18,7 @@ export default function App() {
         </div>
         </main>
 
-      </body>
+      </div>
 
     </Fragment>
   )
