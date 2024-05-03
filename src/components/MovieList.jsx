@@ -20,7 +20,7 @@ export default function MovieList() {
                             <h3 className="text-xl mb-1">{movie.title}</h3>
                             <p className="text-[#575A6E] text-sm mb-2">{movie.description}</p>
                             {/* rating */}
-                            <Rating/>
+                            <Rating value={movie.rating} />
                             <a className="bg-primary rounded-lg py-2 px-5 flex items-center justify-center gap-2 text-[#171923] font-semibold text-sm"
                                 href="#">
                                 <img src={Tag} alt="" />
